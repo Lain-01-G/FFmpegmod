@@ -1,0 +1,18 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+
+[[mods]]
+modId="ffmpegmod"          # 必须和 gradle.properties 里的 mod_id 一致
+version="1.0.0"
+displayName="FFmpeg Command Mod"
+logoFile="logo.png"
+description="Adds a /ffmpeg command to invoke external FFmpeg."
+authors="lain"
+
+[[dependencies.ffmpegmod]]
+modId="computercraft"
+type="optional"
+versionRange="[1.120.0,)"
+ordering="AFTER"
+side="BOTH"
