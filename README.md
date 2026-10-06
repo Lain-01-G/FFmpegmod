@@ -127,7 +127,7 @@ end
 
 ### 🌏 中文文件名处理
 
-`listFiles()` 返回的是 **URL 编码字符串**（如 `%e9%9f%b3%e4%b9%90.flac`），这是为了保证中文字符在 Java 和 Lua 之间传递时不会丢失。
+`listFiles()` 返回的是 **URL 编码字符串**，这是为了保证中文字符在 Java 和 Lua 之间传递时不会丢失。
 
 #### 加入URL 解码
 
@@ -151,7 +151,7 @@ end
 
 ```lua
 local files = ffmpeg.listFiles()
-local input = files[filesname]                                     -- URL 编码
+local input = files[filesname]                             -- URL 编码
 local output = input:gsub("%.[^.]+$", ".dfpwm")            -- 保持编码
 ffmpeg.convertAsync(input, output)                         -- ✅ 正确
 -- ffmpeg.convertAsync(urlDecode(input), ...)              -- ❌ 错误
