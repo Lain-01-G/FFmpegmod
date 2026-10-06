@@ -101,7 +101,7 @@ FFmpeg **不在模组内包含**，需要你手动安装：
 
 | 方法 | 参数 | 返回值 | 说明 |
 |---|---|---|---|
-| `listFiles()` | 无 | 表 | 列出 `ffmpeg/` 文件夹里的所有文件（URL 编码） |
+| `listFiles()` | 无 | 表 | 列出 `ffmpeg` 文件夹里的所有文件（URL 编码） |
 | `fileSize(name)` | 文件名 | 数字 | 获取文件字节数 |
 | `readFileChunk(name, offset, length)` | 名, 偏移, 长度 | 字符串 | 流式读取文件的一块（最大 64 KB） |
 | `convertAsync(input, output)` | 输入, 输出 | 任务 ID | 异步把音频转成 DFPWM |
@@ -116,7 +116,7 @@ FFmpeg **不在模组内包含**，需要你手动安装：
 
 #### `listFiles()`
 
-列出 `ffmpeg/` 文件夹里的所有文件。返回的表里每个元素都是 **URL 编码的文件名**。
+列出 `ffmpeg` 文件夹里的所有文件。返回的表里每个元素都是 **URL 编码的文件名**。
 
 ```lua
 local ffmpeg = require("ffmpeg")
