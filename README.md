@@ -201,7 +201,7 @@ for _, name in ipairs(ffmpeg.listFiles()) do
 end
 ```
 
-**注意**：`name` 必须是 `listFiles()` 返回的原始 URL 编码字符串。
+**注意**：必须是返回的原始 URL 编码字符串。
 
 ---
 
