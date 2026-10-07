@@ -4,7 +4,7 @@
 
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-green)](https://www.minecraft.net/)
 [![NeoForge](https://img.shields.io/badge/NeoForge-21.1.253-orange)](https://neoforged.net/)
-[![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
+[![License](https://img.shields.io/badge/License-GPLv2-blue)](LICENSE)
 
 ---
 
@@ -719,7 +719,7 @@ cd ffmpegmod
 
 ## 📄 许可证
 
-本项目使用 **MIT License**，详见 [LICENSE](LICENSE) 文件。
+本项目使用 **GPLv2 License**。
 
 ---
 
