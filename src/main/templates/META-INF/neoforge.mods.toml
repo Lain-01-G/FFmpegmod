@@ -1,9 +1,9 @@
 modLoader="javafml"
 loaderVersion="[1,)"
-license="MIT"
+license="GPLv2"
 
 [[mods]]
-modId="ffmpegmod"          # 必须和 gradle.properties 里的 mod_id 一致
+modId="ffmpegmod"
 version="1.0.0"
 displayName="FFmpeg Command Mod"
 logoFile="logo.png"
