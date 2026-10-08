@@ -159,9 +159,9 @@ dependencies {
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
     // CC: Tweaked API
-    compileOnly("cc.tweaked:cc-tweaked-1.21.1-core-api:1.120.0")
-    compileOnly("cc.tweaked:cc-tweaked-1.21.1-forge-api:1.120.0")
-    runtimeOnly("cc.tweaked:cc-tweaked-1.21.1-forge:1.120.0")
+    compileOnly("cc.tweaked:cc-tweaked-1.21.1-core-api:1.120.2")
+    compileOnly("cc.tweaked:cc-tweaked-1.21.1-forge-api:1.120.2")
+    runtimeOnly("cc.tweaked:cc-tweaked-1.21.1-forge:1.120.2")
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.
